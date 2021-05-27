@@ -3,7 +3,7 @@ title = "Space Junk"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "G-RM36S3BD06" # Enable Google Analytics by entering your tracking id
 
 [Author]
 	name = "David Garrett"
@@ -11,26 +11,26 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 	avatar = ""
   
 [Params]
-	description = "Super sexy stories for super sexy people." # Description of your site
-	copyright = "Ogden S. Branch"
+	description = "Amazing tales of salvaging, space pirates, and lost civilizations." # Description of your site
+	copyright = "David Garrett"
 	opengraph = true
 	twitter_cards = false
 	readmore = false # Show "Read more" button in list if true
-	authorbox = true
+	authorbox = false
 	pager = true
 	post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.style.vars]
-	highlightColor = "#942192" # Override highlight color
+	highlightColor = "#2d89ef" # Override highlight color
 	
 	# Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
 	# Take care of different quotes OR escaping symbols in these params if necessary
-	fontFamilyPrimary = "Brother-1816, sans-serif"
-	fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+	fontFamilyPrimary = "proxima-nova, sans-serif"
+	fontFamilySecondary = "moby-monospace, monospace"
 
 [Params.logo]
-	image = "images/logo.svg"
-	subtitle = "Super sexy stories for super sexy people" # Logo subtitle
+	image = "images/logo_h.svg"
+	subtitle = "Amazing tales of salvaging, space pirates, and lost civilizations" # Logo subtitle
 
 [Params.sidebar]
 	home = "right"   # Configure layout for home page
@@ -44,5 +44,5 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 	tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
 
 [Params.widgets.social]
-	twitter = "ogdenbranch"
-	email = "ogden.branch@gmail.com"
+	twitter = "HeroicTalesRPG"
+	email = "carpedavid@gmail.com"
