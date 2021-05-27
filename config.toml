@@ -1,0 +1,48 @@
+baseurl = "/"
+title = "Space Junk"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+	name = "David Garrett"
+	bio = ""
+	avatar = ""
+  
+[Params]
+	description = "Super sexy stories for super sexy people." # Description of your site
+	copyright = "Ogden S. Branch"
+	opengraph = true
+	twitter_cards = false
+	readmore = false # Show "Read more" button in list if true
+	authorbox = true
+	pager = true
+	post_meta = ["date", "categories"] # Order of post meta information
+
+[Params.style.vars]
+	highlightColor = "#942192" # Override highlight color
+	
+	# Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+	# Take care of different quotes OR escaping symbols in these params if necessary
+	fontFamilyPrimary = "Brother-1816, sans-serif"
+	fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+	image = "images/logo.svg"
+	subtitle = "Super sexy stories for super sexy people" # Logo subtitle
+
+[Params.sidebar]
+	home = "right"   # Configure layout for home page
+	list = "right"   # Configure layout for list pages
+	single = false # Configure layout for single pages
+	# Enable widgets in given order
+	widgets = ["search", "categories", "taglist", "social"]
+
+[Params.widgets]
+	recent_num = 5 # Set the number of articles in the "Recent articles" widget
+	tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+	twitter = "ogdenbranch"
+	email = "ogden.branch@gmail.com"
